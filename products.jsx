@@ -2,6 +2,7 @@ const products = [
     // Sweet gifts for less
     {
       category: "Sweet gifts for less",
+      rating:2,
       price: 10.99,
       name: "Sweet Chocolate Box",
       image: "https://images.pexels.com/photos/7474254/pexels-photo-7474254.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
@@ -88,12 +89,14 @@ const products = [
     },
     {
       category: "Shop Toys",
+      rating:3,
       price: 19.99,
       name: "Wooden Building Blocks",
       image: "https://images.pexels.com/photos/4473494/pexels-photo-4473494.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       category: "Shop Toys",
+      rating:5,
       price: 49.99,
       name: "Remote Control Car",
       image: "https://images.pexels.com/photos/4732649/pexels-photo-4732649.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
