@@ -1,9 +1,27 @@
+
+import products from "@/products";
+
 import React from "react";
 type Props = {
-  searchParams: { url: string };
+  searchParams: {
+    q: string;
+  };
 };
-const ProductPage = ({ searchParams: { url } }: Props) => {
-  return <div>ProductPage</div>;
+interface Products {
+  name: string;
+  image: string;
+  price: number;
+  category: string;
+  rating?: number;
+  url?: string;
+}
+const ProductPage = ({ searchParams: { q } }: Props) => {
+
+  return <div>
+    <div>
+        
+    </div>
+  </div>;
 };
 
 export default ProductPage;
